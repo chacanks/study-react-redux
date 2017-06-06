@@ -1,4 +1,5 @@
-import React, {Component, PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const propTypes = {
     onPlus : PropTypes.func
@@ -17,10 +18,6 @@ const defaultProps = {
 };
 
 class Control extends React.Component{
-
-    constructor(props){
-        super(props);
-    }
 
     render(){
         return(<div>
